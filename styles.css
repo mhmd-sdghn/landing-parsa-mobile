@@ -1,0 +1,334 @@
+body {
+    /* background-color: #304838; */
+    background-color: #223D2C;
+    font-family: Yekan Bakh FaNum;
+  }
+
+  .container {
+    max-width: 328px;
+    margin: auto;
+  }
+
+  .section-intro {
+    position: relative;
+    height: 100svh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+
+  .section-header-images {
+    display: grid;
+    place-content: center;
+    
+  }
+
+  .section-header-images img {
+    width: 100%;
+    margin: auto;
+    display: block;
+    
+  }
+
+  .img-header-titr-image {
+    max-width: 328px;
+  }
+
+  .section-header-images-parsa {
+    position: relative;
+  }
+
+  .section-intro::before {
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: calc(60vh - 16px);
+    background-color: #304838;
+  }
+
+  .button-more-and-signup {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+   
+  }
+
+  .button-more-and-signup>span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  .button-more-and-signup>img {
+    animation: blink 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes blink {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .div-main-description-wrapper {
+    background-color: #304838;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 72px auto;
+  }
+
+  .p-main-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A8A8A8;
+    text-align: justify;
+    margin: 0;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .p-main-description>mark {
+    color: #F1B01C;
+    background: none;
+  }
+
+  .div-collapse-container {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+
+  .div-collapse-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    color: #fff;
+    font-weight: 300;
+  }
+
+
+
+  .div-collapse-content>ul>li {
+    margin-bottom: 10px;
+    line-height: 24px;
+  }
+
+  .div-collapse-trigger {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 0.5px solid #8e8e8d;
+    color: #F1B01C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .div-collapse-trigger>img:first-child {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in;
+  }
+
+  .div-collapse-trigger.expanded>img:first-child {
+    transform: rotate(0deg);
+  }
+
+  .div-collapse-content.expanded {
+    max-height: 200px;
+    /* Adjust the height as needed */
+  }
+
+
+  .a-signup {
+    border-radius: 2.872px;
+    background: #299d00;
+    padding: 5px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .footer-page {
+    padding-top: 100px;
+    padding-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-gallery-item-full {
+    grid-column: span 2;
+  }
+
+  .p-internal-collapse-content {
+    margin-right: 20px;
+  }
+
+
+  .div-person-box {
+    margin-top: 24px;
+  }
+
+  .div-person-name-box {
+    background-color: #000000;
+    border-right: 2px solid #F1B01C;
+    padding: 4px;
+  }
+
+  .div-person-name-box h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .div-person-img {
+    display: block;
+  }
+
+  .div-person-description-box {
+    background-color: #304838;
+    padding: 16px;
+
+  }
+
+  .div-person-description-box h2 {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 32px;
+  }
+
+  .div-person-description-box h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 32px;
+  }
+
+  .section-prices {
+    padding: 72px 0 32px;
+    display: grid;
+    row-gap: 32px;
+    
+  }
+
+
+
+  .div-price-item-header {
+    background-color: #F1B01C;
+    padding: 4px 0;
+  }
+
+  .div-price-item-title {
+    color: #304838;
+    text-align: center;
+    margin: 0;
+    font-size: 29.365px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .div-price-item-main {
+    background-color: #000121;
+    padding: 16px 0;
+  }
+
+  .div-price-item-kind {
+    text-align: center;
+    color: #FFF;
+    font-size: 29.365px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .div-price-item-divider {
+    height: 1px;
+    background-color: #F1B01C;
+    margin:0 20px;
+  }
+
+  .div-price-item-last-price {
+    color: #8E8E8D;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .div-price-item-last-price s {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .div-price-item-last-price span {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .div-price-item-price {
+    text-align: center;
+    color: #FFF;
+    margin-top: 8px;
+  }
+
+  .div-price-item-price span:first-child {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .div-price-item-price span:last-child,
+  .div-price-item-price-sm span:last-child {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .div-price-item-signup-btn {
+    background-color: #299D00;
+    color: #FFF;
+    text-align: center;
+    border: none;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .div-price-item-price-sm {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
