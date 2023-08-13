@@ -38,13 +38,14 @@ body {
   }
 
   .section-intro::before {
-    width: 100%;
-    content: "";
-    position: absolute;
+    content: '';
+  position: absolute;
     top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--bg-height);
+    background: #304838;
     z-index: -1;
-    height: calc(60vh - 24px);
-    background-color: #304838;
   }
 
   .button-more-and-signup {
