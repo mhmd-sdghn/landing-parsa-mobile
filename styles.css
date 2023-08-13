@@ -193,10 +193,9 @@ body {
   .div-person-name-box h2 {
     color: #ffffff;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300;
     line-height: normal;
     margin: 0;
-    font-family: Yekan Bakh FaNum;
   }
 
   .div-person-img {
@@ -220,7 +219,7 @@ body {
   .div-person-description-box h3 {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
     margin: 0;
     line-height: 32px;
   }
