@@ -22,8 +22,8 @@ This set of fonts are used in this project under the license: (.....)
 	font-family: Yekan Bakh FaNum;
 	font-style: normal;
 	font-weight: 100;
-	src: url('fonts/woff/YekanBakhFaNum-thin.woff') format('woff'),   
-	url('fonts/woff2/YekanBakhFaNum-thin.woff2') format('woff2');		
+	src: url('fonts/woff/YekanBakhFaNum-Thin.woff') format('woff'),   
+	url('fonts/woff2/YekanBakhFaNum-Thin.woff2') format('woff2');		
 }
 
 @font-face {
