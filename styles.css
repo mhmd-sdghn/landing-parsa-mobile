@@ -310,7 +310,7 @@ body {
   }
 
   .div-price-item-signup-btn {
-    background-color: #299D00;
+    background-color: #255737;
     color: #FFF;
     text-align: center;
     border: none;
@@ -333,4 +333,13 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-top: 24px;
+  }
+
+  .footer {
+    margin: 72px auto 72px;
+  }
+
+  .footer img {
+    display: block;
+    margin: auto;
   }
